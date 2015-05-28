@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DDF5AFE1B16C27600A75CE8 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF5AFD1B16C27600A75CE8 /* AddToDoItemViewController.m */; };
+		8DDF5B011B16C44300A75CE8 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF5B001B16C44300A75CE8 /* ToDoListTableViewController.m */; };
+		8DDF5B041B16D1DD00A75CE8 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF5B031B16D1DD00A75CE8 /* ToDoItem.m */; };
 		8DE1C1891B159BF500AFDB27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1C1881B159BF500AFDB27 /* main.m */; };
 		8DE1C18C1B159BF500AFDB27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1C18B1B159BF500AFDB27 /* AppDelegate.m */; };
 		8DE1C18F1B159BF500AFDB27 /* FirstUIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1C18D1B159BF500AFDB27 /* FirstUIApp.xcdatamodeld */; };
-		8DE1C1921B159BF500AFDB27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1C1911B159BF500AFDB27 /* ViewController.m */; };
 		8DE1C1951B159BF500AFDB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE1C1931B159BF500AFDB27 /* Main.storyboard */; };
 		8DE1C1971B159BF500AFDB27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE1C1961B159BF500AFDB27 /* Images.xcassets */; };
 		8DE1C19A1B159BF500AFDB27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE1C1981B159BF500AFDB27 /* LaunchScreen.xib */; };
@@ -28,14 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DDF5AFC1B16C27600A75CE8 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		8DDF5AFD1B16C27600A75CE8 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
+		8DDF5AFF1B16C44300A75CE8 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
+		8DDF5B001B16C44300A75CE8 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		8DDF5B021B16D1DD00A75CE8 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		8DDF5B031B16D1DD00A75CE8 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		8DE1C1831B159BF500AFDB27 /* FirstUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE1C1871B159BF500AFDB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DE1C1881B159BF500AFDB27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DE1C18A1B159BF500AFDB27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DE1C18B1B159BF500AFDB27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8DE1C18E1B159BF500AFDB27 /* FirstUIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstUIApp.xcdatamodel; sourceTree = "<group>"; };
-		8DE1C1901B159BF500AFDB27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DE1C1911B159BF500AFDB27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8DE1C1941B159BF500AFDB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DE1C1961B159BF500AFDB27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8DE1C1991B159BF500AFDB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,9 +91,13 @@
 			children = (
 				8DE1C18A1B159BF500AFDB27 /* AppDelegate.h */,
 				8DE1C18B1B159BF500AFDB27 /* AppDelegate.m */,
-				8DE1C1901B159BF500AFDB27 /* ViewController.h */,
-				8DE1C1911B159BF500AFDB27 /* ViewController.m */,
+				8DDF5AFC1B16C27600A75CE8 /* AddToDoItemViewController.h */,
+				8DDF5AFD1B16C27600A75CE8 /* AddToDoItemViewController.m */,
+				8DDF5AFF1B16C44300A75CE8 /* ToDoListTableViewController.h */,
+				8DDF5B001B16C44300A75CE8 /* ToDoListTableViewController.m */,
 				8DE1C1931B159BF500AFDB27 /* Main.storyboard */,
+				8DDF5B021B16D1DD00A75CE8 /* ToDoItem.h */,
+				8DDF5B031B16D1DD00A75CE8 /* ToDoItem.m */,
 				8DE1C1961B159BF500AFDB27 /* Images.xcassets */,
 				8DE1C1981B159BF500AFDB27 /* LaunchScreen.xib */,
 				8DE1C18D1B159BF500AFDB27 /* FirstUIApp.xcdatamodeld */,
@@ -222,10 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDF5B041B16D1DD00A75CE8 /* ToDoItem.m in Sources */,
 				8DE1C18F1B159BF500AFDB27 /* FirstUIApp.xcdatamodeld in Sources */,
 				8DE1C18C1B159BF500AFDB27 /* AppDelegate.m in Sources */,
-				8DE1C1921B159BF500AFDB27 /* ViewController.m in Sources */,
 				8DE1C1891B159BF500AFDB27 /* main.m in Sources */,
+				8DDF5B011B16C44300A75CE8 /* ToDoListTableViewController.m in Sources */,
+				8DDF5AFE1B16C27600A75CE8 /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				8DE1C1AB1B159BF600AFDB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DE1C1AC1B159BF600AFDB27 /* Build configuration list for PBXNativeTarget "FirstUIAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				8DE1C1AE1B159BF600AFDB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
